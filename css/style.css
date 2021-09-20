@@ -66,7 +66,7 @@ header li:hover{
 }
 
 .content{
-    background-image: url("city.jfif");
+    background-image: url("../images/city.jfif");
     height: 350px;
     color: white;
     background-repeat: no-repeat;
@@ -352,5 +352,22 @@ footer td{
             height: 170px;
             width: 160px;
         }
+       
+    }
+
+
+    @media screen and (max-width: 1020px) {
+    
+        .search{
+            width: 100px;
+        }
+    
+        .camp{
+           float: none;
+            
+        }
+    
+        .imgc{
+            float: none;
        
     }
